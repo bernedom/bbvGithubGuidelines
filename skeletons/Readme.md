@@ -3,6 +3,7 @@
 This is a skeleton for a github repository according to the guidelines provided here [...]. Things you should do now:
 
 1. replace the contentes of this file (Readme.md) with information concerning your project
+1. Check the license (download the LICENSE file from this selection ...)
 1. `git init`
 1. `git commit -am "Initial commit; Set up skeleton structure for repository"
 1. Start coding
