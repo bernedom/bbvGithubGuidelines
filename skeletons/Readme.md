@@ -16,3 +16,9 @@ This is a skeleton for a github repository according to the guidelines provided 
 # How to use
 <Replace this section> Give a kickstart guide to quickly get going. For this skeleton: 
 
+# How to contribute
+
+1. Fork this repository 
+1. Do work 
+1. commit to your fork on github
+1. create a pull request to this repository
