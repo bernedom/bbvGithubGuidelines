@@ -28,3 +28,6 @@ Each github repo should provide at least these items in the root folder
  
 ## Workflow
 Use a workflow in the repository that matches the best practices we encourage our customers to use. Generally prefer a pull-request based workflow to directly pushing changes into master. Encourage contributors to use a clean workflow as well.
+
+### Versions and tagging
+Use some kind of versioning scheme for your project by adding tags and/or providing release builds for your software. Do not be afraid of strong versining and releasing/increasing the version often.  
