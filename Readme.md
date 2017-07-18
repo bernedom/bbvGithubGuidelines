@@ -30,4 +30,7 @@ Each github repo should provide at least these items in the root folder
 Use a workflow in the repository that matches the best practices we encourage our customers to use. Generally prefer a pull-request based workflow to directly pushing changes into master. Encourage contributors to use a clean workflow as well.
 
 ### Versions and tagging
-Use some kind of versioning scheme for your project by adding tags and/or providing release builds for your software. Do not be afraid of strong versining and releasing/increasing the version often.  
+Use some kind of versioning scheme for your project by adding tags and/or providing release builds for your software. Do not be afraid of strong versining and releasing/increasing the version often. 
+
+## How to build
+This  repository provides a python script to pack all necessary files and suggested directory structure to create a new  github repo. It lets the user select the LICENSE and downloads the appropriate license text. 
