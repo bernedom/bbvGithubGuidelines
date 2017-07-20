@@ -11,14 +11,15 @@ Each github repo should provide at least these items in the root folder
  * Source directory
  
  ### Contents of the read me
- @Todo make example/skeleton
- 
+  
  The Readme should at minimum contain these items: 
  
  * __Project Summary__ - What is this repository about? What problem is solved by this code? Why does it exist at all?
  * __The current release__ - Link to a download of a pre-built and packaged release if applicable.
  * __Setup/Build - Instructions___ - Describe how to set up and build the project as simple as possible. This can be as simple as running a docker container
  * __Brief user manual__ - Once the users have built the project, how do they run it for the first time? 
+
+You can download an [example for a Readme.md file her](templates/Readme.md)
  
  ### License
  Pick a reasonably common opensource license for your repository such as a flavor fo GPL, LGPL, MIT or other. Generally projects hould be open sources and as free as possible. If you have any non-free content consider if this should be a project hosted on a public github repository at all. 
