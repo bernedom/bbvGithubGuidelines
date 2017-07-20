@@ -7,7 +7,7 @@ This document serves as a guide and base standard to setup and maintain reposito
 
 Each github repo should provide at least these items in the root folder
  * Readme.md - Containing what this project is about, setup/build instructions
- * LICENSE - The license the project is under
+ * LICENSE - The license the project is under: Generally GPLv3 is a good start. Need help chosing one? [https://choosealicense.com/]
  * Source directory
  
  ### Contents of the read me
@@ -31,6 +31,3 @@ Use a workflow in the repository that matches the best practices we encourage ou
 
 ### Versions and tagging
 Use some kind of versioning scheme for your project by adding tags and/or providing release builds for your software. Do not be afraid of strong versining and releasing/increasing the version often. 
-
-## How to build
-This  repository provides a python script to pack all necessary files and suggested directory structure to create a new  github repo. It lets the user select the LICENSE and downloads the appropriate license text. 
