@@ -24,7 +24,7 @@ Each github repo should provide at least these items in the root folder
  Pick a reasonably common opensource license for your repository such as a flavor fo GPL, LGPL, MIT or other. Generally projects hould be open sources and as free as possible. If you have any non-free content consider if this should be a project hosted on a public github repository at all. 
  
  ### Sources & Documentation
- The code should be buildable for every published commit with the instructions provided. If building is especially tricky try to provide things like a docker container or helper scripts. Consider linking other github projects using submodules. Any program code should reflect the coding standards such as clean-code we advertise at bbv, this includes appropriate documentation. The documentation should be fully publicly available, do not link to any internal resources such as the bbv-wiki or onedrive.  
+ The code should be buildable for every published commit with the instructions provided. If building is especially tricky try to provide things like a docker container or helper scripts. Consider linking other github projects using submodules. Any program code should reflect the coding standards we advertise at bbv including appropriate documentation. The documentation should be fully publicly available, do not link to any internal resources such as the bbv-wiki or onedrive.  
  
 ## Workflow
 Use a workflow in the repository that matches the best practices we encourage our customers to use. Generally prefer a pull-request based workflow to directly pushing changes into master. Encourage contributors to use a clean workflow as well.
