@@ -1,6 +1,6 @@
 # Github @ bbv
 
-Over the last few years GitHub has become one of the major plattforms for interaction between technically-minded people. As such it should be considered more than just a data-dump for git repsitories and be treated like any other social media plattform. This is especially true if one makes use of the github.io plattform for git-based blogging. At bbv we are actively advertising good software crafmanship on all levels ranging from using CleanCode over providing simple build toolchains to encouraging developer-friendly and efficient workflow. Because of this this values and techniques should be part of our natural way of working and thus be reflected in the work we publish over github. 
+Over the last few years GitHub has become one of the major plattforms for interaction between technically-minded people. As such it should be considered more than just a data-dump for git repsitories and be treated like any other social media plattform. This is especially true if one makes use of the github.io plattform for blogging. At bbv we are actively advertising good software crafmanship on all levels ranging from following CleanCode guidelines over providing simple build toolchains to encouraging developer-friendly and efficient workflows. Because of this these values and techniques should be part of our natural way of working and thus be reflected in the work we publish over github. 
 This document serves as a guide and base standard to setup and maintain repositories for bbv on github. In addition to being the source for guidelines this repository provides skeletons to set-up new repositories quickly - check out the releases to download initial archives.
 
 ## Structure
@@ -8,10 +8,9 @@ This document serves as a guide and base standard to setup and maintain reposito
 Each github repo should provide at least these items in the root folder
  * Readme.md - Containing what this project is about, setup/build instructions
  * LICENSE - The license the project is under: Generally GPLv3 is a good start. Need help chosing one? [https://choosealicense.com/]
- * Source directory
+ * Source directory containing the actual content of the repository. 
  
  ### Contents of the read me
- @Todo make example/skeleton
  
  The Readme should at minimum contain these items: 
  
