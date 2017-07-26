@@ -1,4 +1,4 @@
-# &lt;your proejct name&gt;
+# &lt;your project name&gt;
 &lt;Replace this section&gt;
 
 This is a skeleton for a github repository according to the guidelines provided here [https://github.com/bernedom/bbvGithubGuidelines]. 
