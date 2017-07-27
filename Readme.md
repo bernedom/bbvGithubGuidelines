@@ -19,10 +19,10 @@ Each github repo should provide at least these items in the root folder
  * __Setup/Build - Instructions___ - Describe how to set up and build the project as simple as possible. This can be as simple as running a docker container
  * __Brief user manual__ - Once the users have built the project, how do they run it for the first time? 
 
-You can download an [example for a Readme.md file her](templates/Readme.md)
+You can download an [example for a Readme.md file her](templates/Readme.md). For help on writing clean markdown-code use this [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
  
  ### License
- Pick a reasonably common opensource license for your repository such as a flavor fo GPL, LGPL, MIT or other. Generally projects hould be open sources and as free as possible. If you have any non-free content consider if this should be a project hosted on a public github repository at all. 
+ Pick a reasonably common opensource license for your repository such as a flavor fo GPL, LGPL, MIT or other. Generally projects hould be open sources and as free as possible. If you have any non-free content consider if this should be a project hosted on a public github repository at all. Additionally to the ```LICENSE``` consider placing [spdx identifiers](https://spdx.org/using-spdx#identifiers) in your sources, to make the license machine-parseable. See [https://spdx.org/] for more information.
  
  ### Sources & Documentation
  The code should be buildable for every published commit with the instructions provided. If building is especially tricky try to provide things like a docker container or helper scripts. Consider linking other github projects using submodules. Any program code should reflect the coding standards we advertise at bbv including appropriate documentation. The documentation should be fully publicly available, do not link to any internal resources such as the bbv-wiki or onedrive.
