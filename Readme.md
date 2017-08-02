@@ -7,7 +7,7 @@ This document serves as a guide and base standard to setup and maintain reposito
 
 Each github repo should provide at least these items in the root folder
  * Readme.md - Containing what this project is about, setup/build instructions
- * LICENSE - The license the project is under: Generally GPLv3 is a good start. Need help chosing one? [https://choosealicense.com/]
+ * LICENSE - The license the project is under: Generally GPLv3 is a good start. Need help chosing one? https://choosealicense.com/
  * Source directory containing the actual content of the repository. 
  
  ### Contents of the read me
@@ -16,13 +16,13 @@ Each github repo should provide at least these items in the root folder
  
  * __Project Summary__ - What is this repository about? What problem is solved by this code? Why does it exist at all? What are the explicit goals and next steps of this project?
  * __The current release__ - Link to a download of a pre-built and packaged release if applicable.
- * __Setup/Build - Instructions___ - Describe how to set up and build the project as simple as possible. This can be as simple as running a docker container
+ * __Setup/Build - Instructions__ - Describe how to set up and build the project as simple as possible. This can be as simple as running a docker container
  * __Brief user manual__ - Once the users have built the project, how do they run it for the first time? 
 
 You can download an [example for a Readme.md file her](templates/Readme.md). For help on writing clean markdown-code use this [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
  
  ### License
- Pick a reasonably common opensource license for your repository such as a flavor fo GPL, LGPL, MIT or other. Generally projects hould be open sources and as free as possible. If you have any non-free content consider if this should be a project hosted on a public github repository at all. Additionally to the ```LICENSE``` consider placing [spdx identifiers](https://spdx.org/using-spdx#identifiers) in your sources, to make the license machine-parseable. See [https://spdx.org/] for more information.
+ Pick a reasonably common opensource license for your repository such as a flavor fo GPL, LGPL, MIT or other. Generally projects hould be open sources and as free as possible. If you have any non-free content consider if this should be a project hosted on a public github repository at all. Additionally to the ```LICENSE``` consider placing [spdx identifiers](https://spdx.org/using-spdx#identifiers) in your sources, to make the license machine-parseable. See https://spdx.org/ for more information.
  
  ### Sources & Documentation
  The code should be buildable for every published commit with the instructions provided. If building is especially tricky try to provide things like a docker container or helper scripts. Consider linking other github projects using submodules. Any program code should reflect the coding standards we advertise at bbv including appropriate documentation. The documentation should be fully publicly available, do not link to any internal resources such as the bbv-wiki or onedrive.
